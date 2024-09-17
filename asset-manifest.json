@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Abhishekbanoth/FriendApp/static/css/main.18d29030.css",
+    "main.js": "/Abhishekbanoth/FriendApp/static/js/main.2fc50189.js",
+    "static/js/453.b297fed0.chunk.js": "/Abhishekbanoth/FriendApp/static/js/453.b297fed0.chunk.js",
+    "static/media/users.png": "/Abhishekbanoth/FriendApp/static/media/users.ce28d55bbfe38ca9a64e.png",
+    "static/media/home2.png": "/Abhishekbanoth/FriendApp/static/media/home2.d5add5b2c9b070f0dd26.png",
+    "static/media/friends.png": "/Abhishekbanoth/FriendApp/static/media/friends.4c410c6694bf4bf686e7.png",
+    "static/media/home.png": "/Abhishekbanoth/FriendApp/static/media/home.7045ffd86e2869b88017.png",
+    "static/media/profile.jpg": "/Abhishekbanoth/FriendApp/static/media/profile.1aa2d603cb4f86cfb761.jpg",
+    "index.html": "/Abhishekbanoth/FriendApp/index.html",
+    "main.18d29030.css.map": "/Abhishekbanoth/FriendApp/static/css/main.18d29030.css.map",
+    "main.2fc50189.js.map": "/Abhishekbanoth/FriendApp/static/js/main.2fc50189.js.map",
+    "453.b297fed0.chunk.js.map": "/Abhishekbanoth/FriendApp/static/js/453.b297fed0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18d29030.css",
+    "static/js/main.2fc50189.js"
+  ]
+}
