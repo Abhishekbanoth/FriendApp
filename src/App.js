@@ -5,7 +5,6 @@ import Navbar from './Components/Navbar';
 import AllUsers from './Components/AllUsers';
 import MyFriendsAndRequests from './Components/MyFriends';
 import RecommendedFriends from './Components/Home';
-// import ProtectedRoute from './Components/ProtectedRoute';
 
 function App() {
     return (
@@ -13,7 +12,7 @@ function App() {
             <div>
                 <Navbar/>
                 <Routes>
-                    {/* Route for the root path */}
+                   
                     <Route path="/" element={<Auth />} />
                     <Route path="/login" element={<Auth />} />
                 <Route 
