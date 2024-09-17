@@ -75,7 +75,6 @@ const RecommendedFriends = () => {
                                 <span style={styles.username}>{friend.username}</span>
                                 <div style={styles.actions}>
                                     <button onClick={() => handleAddFriend(friend._id)} style={styles.button}>Add Friend</button>
-                                    
                                 </div>
                             </li>
                         ))
@@ -110,20 +109,22 @@ const styles = {
         backgroundColor: 'rgb(0 103 255 / 25%)',
         borderRadius: '12px',
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+        gap: '20px',
+        flexWrap: 'wrap', // Allows wrapping on small screens
     },
     container: {
         flex: 1,
-        height:'70vh',
         padding: '30px',
         backgroundColor: '#ffffff',
         borderRadius: '12px',
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-        fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
-        maxWidth: 'calc(50% - 20px)',
+        fontFamily: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif',
+        maxWidth: '50%',
+        boxSizing: 'border-box',
     },
     imageWrapper: {
         flexShrink: 0,
-        maxWidth: 'calc(50% - 20px)',
+        maxWidth: '45%',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -198,6 +199,42 @@ const styles = {
         fontSize: '22px',
         color: '#007bff',
         marginBottom: '10px',
+    },
+    /* Mobile responsiveness */
+    '@media (max-width: 768px)': {
+        wrapper: {
+            flexDirection: 'column',
+        },
+        container: {
+            maxWidth: '100%',
+        },
+        imageWrapper: {
+            maxWidth: '100%',
+            marginTop: '20px', // Push the image below the content
+        },
+    },
+    '@media (max-width: 576px)': {
+        container: {
+            padding: '20px',
+        },
+        title: {
+            fontSize: '22px',
+        },
+        searchInput: {
+            fontSize: '14px',
+        },
+        listItem: {
+            padding: '10px',
+        },
+        button: {
+            fontSize: '12px',
+        },
+        statsTitle: {
+            fontSize: '18px',
+        },
+        stats: {
+            padding: '15px',
+        },
     },
 };
 
